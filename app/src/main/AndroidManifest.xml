@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navigationtest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".content_homepage" />
+        <activity
+            android:name=".setname"
+            android:label="Label Your House"
+            android:parentActivityName=".setname"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".studyroom2"
+            android:label="@string/title_activity_studyroom"
+            android:parentActivityName=".monitor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.monitor" />
+        </activity>
+        <activity
+            android:name=".laundryroom2"
+            android:label="@string/title_activity_laundryroom"
+            android:parentActivityName=".monitor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.monitor" />
+        </activity>
+        <activity
+            android:name=".bathroom2"
+            android:label="@string/title_activity_bathroom"
+            android:parentActivityName=".monitor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.monitor" />
+        </activity>
+        <activity
+            android:name=".kitchen2"
+            android:label="@string/title_activity_kitchen"
+            android:parentActivityName=".monitor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.monitor" />
+        </activity>
+        <activity
+            android:name=".bedroom2"
+            android:label="@string/title_activity_bedroom"
+            android:parentActivityName=".monitor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.monitor" />
+        </activity>
+        <activity
+            android:name=".monitor"
+            android:label="@string/title_activity_monitor"
+            android:parentActivityName=".monitor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".studyroom"
+            android:label="@string/title_activity_studyroom"
+            android:parentActivityName=".monitor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".livingroom2"
+            android:label="@string/title_activity_livingroom2"
+            android:parentActivityName=".monitor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".laundryroom"
+            android:label="@string/title_activity_laundryroom"
+            android:parentActivityName=".manual"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".livingroom"
+            android:label="@string/title_activity_livingroom"
+            android:parentActivityName=".manual"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kitchen"
+            android:label="@string/title_activity_kitchen"
+            android:parentActivityName=".manual"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bathroom"
+            android:label="@string/title_activity_bathroom"
+            android:parentActivityName=".manual"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bedroom"
+            android:label="@string/title_activity_bedroom"
+            android:parentActivityName=".manual"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationtest.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".theme"
+            android:label="@string/menu_theme"
+            android:parentActivityName=".theme"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".manual"
+            android:label="@string/title_activity_manual"
+            android:parentActivityName=".manual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".voice"
+            android:label="@string/menu_voice"
+            android:parentActivityName=".voice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>
